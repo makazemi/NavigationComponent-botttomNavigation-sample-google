@@ -20,5 +20,9 @@
         android:id="@+id/registered"
         android:name="com.maryam.navigation.formscreen.Registered"
         android:label="Registered"
-        tools:layout="@layout/fragment_registered"/>
+        tools:layout="@layout/fragment_registered">
+        <action
+            android:id="@+id/action_registered_to_register"
+            app:destination="@id/register" />
+    </fragment>
 </navigation>

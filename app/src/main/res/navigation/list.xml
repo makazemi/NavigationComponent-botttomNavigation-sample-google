@@ -27,5 +27,8 @@
         <argument
             android:name="userName"
             app:argType="string"/>
+        <action
+            android:id="@+id/action_userProfile_to_leaderboard"
+            app:destination="@id/leaderboard" />
     </fragment>
 </navigation>
